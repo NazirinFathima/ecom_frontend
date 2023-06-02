@@ -11,19 +11,19 @@ const Footer = () => {
               <h5>Quick links</h5>
               <ul class="nav flex-column">
                 <li class="nav-item mb-2">
-                  <a href="/" class="nav-link p-0 text-muted">
+                  <Link href="/" class="nav-link p-0 text-muted">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item mb-2">
-                  <a href="/products" class="nav-link p-0 text-muted">
+                  <Link href="/products" class="nav-link p-0 text-muted">
                     products
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item mb-2">
-                  <a href="/about" class="nav-link p-0 text-muted">
+                  <Link href="/about" class="nav-link p-0 text-muted">
                     About
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
