@@ -23,7 +23,7 @@ const Address = ({ modal, setModal, id, quantity }) => {
       quantity,
     };
     if (address && address?.email && address?.phone) {
-      order = await submitOrder(orderData);
+      const order = await submitOrder(orderData);
       if (order && typeof order?.id === "string") {
         router.push("/confirm");
       }
